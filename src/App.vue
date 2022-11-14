@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TextBinding msg="app to text binding"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TextBinding from './components/TextBinding.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TextBinding
   }
 }
 </script>
