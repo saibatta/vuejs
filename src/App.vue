@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ListRendering msg="list rendering demo!!"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ListRendering from './components/ListRendering'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ListRendering
   }
 }
 </script>
@@ -21,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
